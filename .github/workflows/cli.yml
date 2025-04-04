@@ -10,7 +10,3 @@ jobs:
       id: b
       run: C:\Users\TestAgent\Desktop\migo\winams_proj\testrun.bat
       shell: cmd
-    - name: exec-autdatrun
-      id: autdatrun
-      run: C:\Users\TestAgent\Desktop\migo\autdatrun\autdatrun.bat
-      shell: cmd
