@@ -8,5 +8,5 @@ jobs:
     steps:
     - name: exec-b
       id: b
-      run: C:\Users\elgin.ramos\Desktop\test\Env\testrun.bat
+      run: C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11testrun.bat
       shell: cmd
