@@ -6,7 +6,7 @@ jobs:
   job1:
     runs-on: self-hosted
     steps:
-    - name: exec-b
-      id: b
-      run: C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\01_05\test06.bat
+    - name: exec-test06
+      id: test06
+      run: C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\06\test06.bat
       shell: cmd
