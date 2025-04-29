@@ -1,4 +1,4 @@
-name: silent-cli-execution
+name: SCLI01to06
 
 on: [workflow_dispatch]
 
