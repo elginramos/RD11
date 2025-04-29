@@ -1,0 +1,12 @@
+name: SCLI25to30
+
+on: [workflow_dispatch]
+
+jobs:
+  job1:
+    runs-on: self-hosted
+    steps:
+    - name: exec-test25to30
+      id: test25to30
+      run: C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\25_30\testrun.bat
+      shell: cmd
