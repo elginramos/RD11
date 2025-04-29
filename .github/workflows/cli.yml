@@ -6,7 +6,7 @@ jobs:
   job1:
     runs-on: self-hosted
     steps:
-    - name: exec-test1to6
-      id: test1to6
-      run: C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\19_24\clrlog.bat
+    - name: exec-test18
+      id: test18
+      run: C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\13_18\clrlog.bat
       shell: cmd
