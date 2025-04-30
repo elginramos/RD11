@@ -6,7 +6,11 @@ jobs:
   job1:
     runs-on: self-hosted
     steps:
-    - name: mess
-      id: mess
+    - name: mess1
+      id: mess1
+      run: cd C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\01_06
+      shell: cmd
+    - name: mess2
+      id: mess2
       run: echo %cd%
       shell: cmd
