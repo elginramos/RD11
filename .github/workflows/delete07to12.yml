@@ -1,0 +1,12 @@
+name: clrlog07to12
+
+on: [workflow_dispatch]
+
+jobs:
+  job1:
+    runs-on: self-hosted
+    steps:
+    - name: exec-test07to12
+      id: test07to12
+      run: C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\07_12\clrlog.bat
+      shell: cmd
