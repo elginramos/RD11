@@ -8,9 +8,7 @@ jobs:
     steps:
     - name: mess1
       id: mess1
-      run: cd C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\01_06
-      shell: cmd
-    - name: mess2
-      id: mess2
-      run: echo %cd%
+      run: |
+        cd C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\01_06
+        echo %cd%
       shell: cmd
