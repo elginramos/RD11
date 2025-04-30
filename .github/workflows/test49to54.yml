@@ -1,0 +1,12 @@
+name: SCLI49to54
+
+on: [workflow_dispatch]
+
+jobs:
+  job1:
+    runs-on: self-hosted
+    steps:
+    - name: exec-test49to54
+      id: test49to54
+      run: C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\49_54\testrun.bat
+      shell: cmd
