@@ -1,4 +1,4 @@
-name: SCLI01to06
+name: clrlog01to06
 
 on: [workflow_dispatch]
 
