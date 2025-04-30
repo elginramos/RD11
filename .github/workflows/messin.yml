@@ -1,0 +1,12 @@
+name: mess
+
+on: [workflow_dispatch]
+
+jobs:
+  job1:
+    runs-on: self-hosted
+    steps:
+    - name: mess
+      id: mess
+      run: echo %cd%
+      shell: cmd
