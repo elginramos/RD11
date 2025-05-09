@@ -9,6 +9,6 @@ jobs:
     - name: exec-test25to30
       id: test25to30
       run: |
-      cd C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\25_30
-      C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\25_30\testrun.bat
+        cd C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\25_30
+        C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\25_30\testrun.bat
       shell: cmd
