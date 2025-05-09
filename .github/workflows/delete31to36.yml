@@ -1,0 +1,14 @@
+name: clrlog31to36
+
+on: [workflow_dispatch]
+
+jobs:
+  job1:
+    runs-on: self-hosted
+    steps:
+    - name: exec-test31to36
+      id: test31to36
+      run: |
+        cd C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\31_36
+        C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\31_36\clrlog.bat
+      shell: cmd
