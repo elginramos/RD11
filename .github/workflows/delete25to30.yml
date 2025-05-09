@@ -8,5 +8,7 @@ jobs:
     steps:
     - name: exec-test25to30
       id: test25to30
-      run: C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\25_30\clrlog.bat
+      run: |
+        cd C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\25_30
+        C:\Users\elgin.ramos\actions-runner\_work\RD11\RD11\25_30\clrlog.bat
       shell: cmd
